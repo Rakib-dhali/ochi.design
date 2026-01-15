@@ -1,12 +1,10 @@
 import React from 'react'
-import Navbar from './components/Navbar'
-import Landing from './components/Landing'
+import Hero from './components/Hero'
 
 const App = () => {
   return (
-    <div className='w-full h-screen bg-blue-500 text-white'>
-      <Navbar/>
-      <Landing/>
+    <div className='w-full h-screen'>
+      <Hero/>
     </div>
   )
 }
