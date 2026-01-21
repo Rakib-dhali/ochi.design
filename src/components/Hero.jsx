@@ -5,8 +5,8 @@ import Landing from './Landing'
 const Hero = () => {
   return (
     <div>
-        <Navbar/>
-        <Landing/>
+      <Navbar />
+      <Landing />
     </div>
   )
 }
