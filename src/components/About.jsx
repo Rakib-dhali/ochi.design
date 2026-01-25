@@ -1,5 +1,5 @@
 import React from 'react';
-import man_woman from '../assets/man_woman.jpg';
+import man_woman from '/assets/man_woman.jpg';
 
 const About = () => {
   return (

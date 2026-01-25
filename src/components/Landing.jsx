@@ -1,13 +1,13 @@
 import React from 'react'
 import { FiArrowUpRight } from "react-icons/fi";
-import contentImage from '../assets/content-image01.jpg';
+import contentImage from '/assets/content-image01.jpg';
 
 const Landing = () => {
     return (
         <div className='w-full h-screen text-[#212121]'>
             <div className="masker overflow-hidden font-founder text-[9rem] tracking-wide leading-none ml-16">
                 <h2 className='m-0 translate-y-[0.25em] uppercase'> we create</h2>
-                <h2 className='m-0  uppercase flex gap-3 items-center justify-start'> <img className='h-21 mt-4 ' src={contentImage} alt="ochi" /> <span>eye-opening</span></h2>
+                <h2 className='m-0  uppercase flex gap-3 items-center justify-start'> <img className='h-22.75 mt-4 ' src={contentImage} alt="ochi" /> <span>eye-opening</span></h2>
                 <h2 className='m-0 translate-y-[-0.25em] uppercase'>presentation</h2>
             </div>
             <hr className='mt-10' />
