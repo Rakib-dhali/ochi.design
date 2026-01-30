@@ -126,7 +126,7 @@ const Features = () => {
               </div>
             </div>
             <h2
-              className={` absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 font-semibold text-6xl text-[#CDEA68] font-founder whitespace-nowrap pointer-events-none z-10  transition-all duration-500 ease-out
+              className={` absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 font-semibold text-7xl text-[#CDEA68] font-founder whitespace-nowrap pointer-events-none z-10  transition-all duration-500 ease-out
     ${title2 ? '-translate-y-10 opacity-100' : 'translate-y-0 opacity-0'}`}
             >
               {title2}
