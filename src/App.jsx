@@ -6,6 +6,7 @@ import Eyes from './components/Eyes'
 import Features from './components/Features'
 import Review from './components/Review'
 import Cards from './components/Cards'
+import Ready from './components/Ready'
 
 const App = () => {
   return (
@@ -17,6 +18,7 @@ const App = () => {
       <Features/>
       <Review/>
       <Cards />
+      <Ready/>
     </div>
   )
 }
