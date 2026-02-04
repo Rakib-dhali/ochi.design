@@ -21,29 +21,46 @@ const Eyes = () => {
   }, []);
 
   return (
-    <div className='bg-[url("/assets/bg-eyes.jpg")] bg-cover bg-center w-full h-screen flex justify-center items-center'>
-      <div className="flex gap-10">
-        <div className="h-50 w-50 bg-red-50 rounded-full flex justify-center items-center">
-          <div className="w-30 h-30 bg-black rounded-full ">
+    <div
+      data-scroll
+      data-scroll-section
+      data-scroll-speed="0"
+      className=" w-full h-screen "
+    >
+      <div className='bg-[url("/assets/bg-eyes.jpg")] bg-cover bg-center flex justify-center items-center w-full h-screen overflow-hidden'>
+        <div
+          data-scroll
+          data-scroll-section
+          data-scroll-speed=".3"
+          className="flex gap-10"
+        >
+          <div className=" h-50 w-50 bg-white rounded-full flex justify-center items-center">
             <div
               style={{ transform: `rotate(${rotate}deg)` }}
-              className="w-30 h-30 transform flex justify-center"
+              className="h-35 w-35 rounded-full flex justify-center"
             >
-              <div className=" w-5 h-5 bg-white rounded-full"></div>
+              {' '}
+              <div className="w-30 h-30 bg-black rounded-full ">
+                <div className="w-30 h-30 transform flex justify-center">
+                  <div className=" w-5 h-5 bg-white rounded-full"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className=" h-50 w-50 bg-white rounded-full flex justify-center items-center">
+            <div
+              style={{ transform: `rotate(${rotate}deg)` }}
+              className="h-35 w-35 rounded-full flex justify-center"
+            >
+              {' '}
+              <div className="w-30 h-30 bg-black rounded-full ">
+                <div className="w-30 h-30 transform flex justify-center">
+                  <div className=" w-5 h-5 bg-white rounded-full"></div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
-        <div className="h-50 w-50 bg-red-50 rounded-full flex justify-center items-center">
-          <div className="w-30 h-30 bg-black rounded-full ">
-            <div
-              style={{ transform: `rotate(${rotate}deg)` }}
-              className="w-30 h-30 transform  flex justify-center"
-            >
-              <div className=" w-5 h-5 bg-white rounded-full"></div>
-            </div>
-          </div>
-        </div>
-        ok
       </div>
     </div>
   );

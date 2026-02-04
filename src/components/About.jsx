@@ -3,7 +3,12 @@ import man_woman from '/assets/man_woman.jpg';
 
 const About = () => {
   return (
-    <div className="bg-[#CDEA68] w-full rounded-2xl">
+    <div
+      data-scroll
+      data-scroll-section
+      data-scroll-speed="-.1"
+      className="bg-[#CDEA68] w-full rounded-2xl "
+    >
       <div className="mx-10">
         <p className="text-[4rem] font-normal text-neutral-600 font-neuemontreal leading-15 pt-15 pb-10  ">
           We craft category-defining presentations, brand identities, and
@@ -39,7 +44,7 @@ const About = () => {
           </section>
         </div>
         <hr className="border-t border-e-zinc-500" />
-        <div className="mt-5 flex">
+        <div className="mt-5 pb-5 flex">
           <section className=" basis-1/2">
             <h2 className="text-5xl font-neuemontreal font-semibold mb-5">
               how can i help

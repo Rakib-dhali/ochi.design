@@ -1,6 +1,6 @@
-import React from 'react'
-import Navbar from './Navbar'
-import Landing from './Landing'
+import React from 'react';
+import Navbar from './Navbar';
+import Landing from './Landing';
 
 const Hero = () => {
   return (
@@ -8,7 +8,7 @@ const Hero = () => {
       <Navbar />
       <Landing />
     </div>
-  )
-}
+  );
+};
 
-export default Hero
+export default Hero;
